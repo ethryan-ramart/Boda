@@ -203,6 +203,25 @@
   }
 }
 
+/* Responsive para tablets */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .initials {
+    font-size: clamp(4.5rem, 13vw, 10rem);
+    letter-spacing: 0.08em;
+  }
+  
+  .tap-instruction {
+    font-size: clamp(1.15rem, 3.2vw, 1.6rem);
+    bottom: clamp(55px, 9vh, 90px);
+    padding: 9px 28px;
+  }
+  
+  .blur-overlay {
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+  }
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .initials {
