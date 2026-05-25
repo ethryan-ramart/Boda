@@ -155,6 +155,76 @@
   overflow: hidden;
 }
 
+/* Responsive para tablets */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .main-image {
+    width: 92vw;
+    height: 92vh;
+  }
+
+  .fin-image {
+    width: 92vw;
+    height: 92vh;
+  }
+
+  .image-overlay h1 {
+    font-size: clamp(3.5rem, 9vw, 7rem);
+    letter-spacing: 3px;
+  }
+
+  .final-text-overlay h1 {
+    font-size: clamp(3.5rem, 9vw, 7rem);
+    letter-spacing: 3px;
+  }
+
+  /* Cuadros decorativos ajustados para tablet */
+  .box-1 {
+    width: 140px;
+    height: 140px;
+    top: 12%;
+    left: 10%;
+  }
+
+  .box-2 {
+    width: 95px;
+    height: 180px;
+    top: 22%;
+    right: 7%;
+  }
+
+  .box-3 {
+    width: 120px;
+    height: 120px;
+    bottom: 18%;
+    left: 8%;
+  }
+
+  .box-4 {
+    width: 160px;
+    height: 100px;
+    top: 38%;
+    right: 12%;
+  }
+
+  .box-5 {
+    width: 85px;
+    height: 85px;
+    bottom: 28%;
+    right: 18%;
+  }
+
+  .box-6 {
+    width: 130px;
+    height: 150px;
+    top: 8%;
+    right: 22%;
+  }
+
+  .content-section {
+    padding: 50px 35px;
+  }
+}
+
 @media (max-width: 768px) {
   .fin-image {
     position: absolute;
@@ -826,6 +896,29 @@
   font-weight: 400;
 }
 
+/* Responsive para tablets - Countdown */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .invitation-section {
+    padding: 70px 20px;
+  }
+
+  .countdown-container {
+    gap: 25px;
+  }
+
+  .countdown-item {
+    min-width: 90px;
+  }
+
+  .countdown-number {
+    font-size: clamp(2.5rem, 5.5vw, 4.5rem);
+  }
+
+  .countdown-label {
+    font-size: clamp(0.95rem, 2vw, 1.15rem);
+  }
+}
+
 @media (max-width: 768px) {
   .invitation-section {
     padding: 60px 20px;
@@ -960,6 +1053,49 @@
   color: #8b5a2b;
   font-style: italic;
   font-weight: 400;
+}
+
+/* Responsive para tablets - Ceremony */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .ceremony-section {
+    padding: 35px 20px;
+  }
+
+  .ceremony-title {
+    font-size: clamp(2.2rem, 6.5vw, 4rem);
+    margin-bottom: 9px;
+  }
+
+  .ceremony-name {
+    font-size: clamp(0.9rem, 1.9vw, 1.3rem);
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+  }
+
+  .ceremony-image-container {
+    max-height: 38vh;
+    border-radius: 10px;
+    margin-bottom: 18px;
+  }
+
+  .ceremony-address {
+    font-size: clamp(0.9rem, 1.9vw, 1.2rem);
+    margin-bottom: 13px;
+  }
+
+  .ceremony-time {
+    font-size: clamp(1.6rem, 3.8vw, 2.5rem);
+    margin-bottom: 18px;
+  }
+
+  .map-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .map-text {
+    font-size: clamp(0.8rem, 1.7vw, 0.95rem);
+  }
 }
 
 @media (max-width: 768px) {
@@ -1188,7 +1324,52 @@
   line-height: 1.4;
 }
 
-/* Responsive para tablets */
+/* Responsive para tablets - Itinerary */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .itinerary-section {
+    padding: 70px 20px;
+  }
+
+  .itinerary-content {
+    gap: 45px;
+  }
+
+  .itinerary-title {
+    font-size: clamp(2.2rem, 6.5vw, 4rem);
+  }
+
+  .itinerary-timeline {
+    max-width: 950px;
+  }
+
+  .timeline-item {
+    min-width: 180px;
+  }
+
+  .timeline-icon {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 18px;
+  }
+
+  .icon-svg {
+    width: 38px;
+    height: 38px;
+  }
+
+  .timeline-time {
+    font-size: clamp(1.15rem, 2.3vw, 1.6rem);
+  }
+
+  .timeline-title {
+    font-size: clamp(0.98rem, 1.9vw, 1.25rem);
+  }
+
+  .timeline-description {
+    font-size: clamp(0.88rem, 1.6vw, 1.05rem);
+  }
+}
+
 @media (max-width: 768px) {
   .itinerary-section {
     padding: 60px 20px;
@@ -1598,7 +1779,61 @@
   border-radius: 6px;
 }
 
-/* Responsive para tablets */
+/* Responsive para tablets - Hotels */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .hotels-section {
+    padding: 70px 20px;
+  }
+
+  .hotels-content {
+    gap: 35px;
+  }
+
+  .hotels-title {
+    font-size: clamp(2.2rem, 6.5vw, 4rem);
+  }
+
+  .hotels-subtitle {
+    font-size: clamp(0.95rem, 2.3vw, 1.35rem);
+  }
+
+  .hotels-carousel-container {
+    max-width: 800px;
+    gap: 18px;
+  }
+
+  .carousel-button {
+    width: 48px;
+    height: 48px;
+    font-size: 1.9rem;
+  }
+
+  .hotel-card {
+    padding: 35px 28px;
+    gap: 14px;
+  }
+
+  .hotel-icon {
+    width: 55px;
+    height: 55px;
+  }
+
+  .hotel-name {
+    font-size: clamp(1.45rem, 2.8vw, 1.9rem);
+  }
+
+  .hotel-address,
+  .hotel-distance,
+  .hotel-phone {
+    font-size: clamp(0.92rem, 1.7vw, 1.08rem);
+  }
+
+  .hotel-maps-button {
+    padding: 11px 22px;
+    font-size: clamp(0.92rem, 1.7vw, 0.98rem);
+  }
+}
+
 @media (max-width: 768px) {
   .hotels-section {
     padding: 60px 15px;
@@ -1872,6 +2107,39 @@
     inset 0 0 0 2px rgba(255, 255, 255, 0.2);
 }
 
+/* Responsive para tablets - Dress Code */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .dress-code-section {
+    padding: 70px 20px;
+  }
+
+  .dress-code-content {
+    gap: 35px;
+  }
+
+  .dress-code-title {
+    font-size: clamp(2.2rem, 6.5vw, 4rem);
+  }
+
+  .dress-code-subtitle {
+    font-size: clamp(1.8rem, 4.2vw, 3.2rem);
+  }
+
+  .dress-code-description {
+    font-size: clamp(0.95rem, 2.3vw, 1.35rem);
+  }
+
+  .dress-code-colors {
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+
+  .color-swatch {
+    width: 145px;
+    height: 145px;
+  }
+}
+
 @media (max-width: 768px) {
   .dress-code-section {
     padding: 60px 20px;
@@ -2038,6 +2306,47 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Responsive para tablets - Confirmation */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .confirmation-section {
+    padding: 70px 20px;
+  }
+
+  .confirmation-content {
+    gap: 35px;
+  }
+
+  .confirmation-title {
+    font-size: clamp(2.2rem, 6.5vw, 4rem);
+  }
+
+  .confirmation-cards-container {
+    gap: 28px;
+  }
+
+  .confirmation-card,
+  .song-request-card {
+    padding: 35px 28px;
+    gap: 22px;
+    max-width: 450px;
+  }
+
+  .confirmation-text,
+  .song-request-text {
+    font-size: clamp(0.98rem, 2.3vw, 1.25rem);
+  }
+
+  .song-request-subtext {
+    font-size: clamp(1.05rem, 2.6vw, 1.4rem);
+  }
+
+  .confirm-button,
+  .song-button {
+    padding: 15px 36px;
+    font-size: clamp(0.98rem, 2.3vw, 1.15rem);
+  }
 }
 
 @media (max-width: 768px) {
@@ -2304,6 +2613,56 @@
 
 .gift-button .button-icon {
   font-size: clamp(1.1rem, 2.2vw, 1.3rem);
+}
+
+/* Responsive para tablets - Gift Registry */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .gift-registry-section {
+    padding: 50px 20px;
+  }
+
+  .gift-registry-title {
+    font-size: clamp(2.2rem, 6.5vw, 4rem);
+    margin-bottom: 18px;
+  }
+
+  .gift-registry-subtitle {
+    font-size: clamp(0.98rem, 2.3vw, 1.35rem);
+    margin-bottom: 35px;
+  }
+
+  .gift-registry-cards-container {
+    gap: 35px;
+  }
+
+  .gift-registry-card {
+    max-width: 380px;
+    padding: 35px 30px;
+  }
+
+  .gift-card-icon {
+    font-size: clamp(2.8rem, 5.5vw, 3.3rem);
+    margin-bottom: 13px;
+  }
+
+  .gift-card-title {
+    font-size: clamp(1.4rem, 2.8vw, 1.7rem);
+    margin-bottom: 11px;
+  }
+
+  .gift-card-text {
+    font-size: clamp(0.92rem, 1.7vw, 1.02rem);
+    margin-bottom: 22px;
+  }
+
+  .gift-button {
+    padding: 13px 32px;
+    font-size: clamp(0.88rem, 1.7vw, 0.93rem);
+  }
+
+  .gift-button .button-icon {
+    font-size: clamp(1.05rem, 2.1vw, 1.25rem);
+  }
 }
 
 @media (max-width: 768px) {
