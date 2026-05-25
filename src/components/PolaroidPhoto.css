@@ -52,6 +52,23 @@
   font-style: italic;
 }
 
+/* Responsive para tablets */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .polaroid-image {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .polaroid-frame {
+    padding: 12px 12px 40px 12px;
+  }
+  
+  .polaroid-caption {
+    font-size: 0.85rem;
+    margin-top: 12px;
+  }
+}
+
 /* Responsive para móviles */
 @media (max-width: 768px) {
   .polaroid-image {
