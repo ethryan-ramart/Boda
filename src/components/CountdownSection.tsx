@@ -19,9 +19,11 @@ const CountdownSection = () => {
   const [animationComplete, setAnimationComplete] = useState(false)
 
   useEffect(() => {
-    const weddingDate = new Date('2026-11-07T16:30:00').getTime()
+    // Fecha de la boda en hora de México (UTC-6)
+    const weddingDate = new Date('2026-11-07T16:30:00-06:00').getTime()
     
     const updateCountdown = () => {
+      // Obtener la hora actual en UTC y convertir a hora de México
       const now = new Date().getTime()
       const distance = weddingDate - now
       
