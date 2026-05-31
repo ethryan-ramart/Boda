@@ -236,10 +236,6 @@
     align-items: center;
     z-index: 2;
     overflow: hidden;
-    box-shadow:
-      0 10px 40px rgba(139, 90, 43, 0.3),
-      inset 0 0 0 2px rgba(210, 180, 140, 0.4);
-    border-radius: 10px;
     will-change: transform;
   }
   .fin-image img {
