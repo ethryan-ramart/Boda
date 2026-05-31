@@ -77,7 +77,7 @@ const ConfirmationSection = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <span className="button-icon">🎵</span>
+              <span className="button-icon">📻</span>
               Sugerir Canción
             </motion.button>
           </motion.div>
