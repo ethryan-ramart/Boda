@@ -96,7 +96,7 @@ const ItinerarySection = () => {
     },
     {
       icon: <DanceIcon />,
-      time: '10:00 p.m.',
+      time: '9:00 p.m.',
       title: 'Baile',
       description: 'Inicia la fiesta y diversión'
     },
