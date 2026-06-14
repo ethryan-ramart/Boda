@@ -17,15 +17,17 @@ export default function EnvelopeIntro({ onOpen }: EnvelopeIntroProps) {
       <div className="hero-background">
         <img src="/images/portada.jpg" alt="Invitación de Boda" />
       </div>
-      
+
       {/* Capa de blur encima */}
       <div className="blur-overlay"></div>
-      
+
       {/* Texto central A & L */}
-      <div className="central-text">
-        <span className="initials">A & L</span>
+      <div className="central-text" style={{
+        filter: 'brightness(0) saturate(100%) invert(35%) sepia(28%) saturate(1089%) hue-rotate(359deg) brightness(80%) contrast(88%)'
+      }}>
+        <img src="/images/Logo.png" alt="Logo" />
       </div>
-      
+
       {/* Texto de instrucción */}
       <p className="tap-instruction">Toca para abrir</p>
     </div>

@@ -64,7 +64,11 @@
   z-index: 3;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;  
+}
+.central-text img {
+  height: 50vh;
+  width: auto;
 }
 
 .initials {
@@ -237,6 +241,11 @@
   .blur-overlay {
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
+  }
+  .central-text img{
+    height: 30vh;
+    width: auto;
+
   }
 }
 
